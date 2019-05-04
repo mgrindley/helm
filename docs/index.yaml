@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   memcached:
   - appVersion: 1.5.6
-    created: 2019-05-04T20:02:46.493607333+01:00
+    created: 2019-05-04T20:05:46.078320332+01:00
     description: Free & open source, high-performance, distributed memory object caching
       system.
     digest: 4b01420fce2726f8f7cda7d32067c0b40f9d0d6efb1e38c4d593376ae8d9b550
@@ -28,11 +28,38 @@ entries:
   mychart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-05-04T20:02:46.493804621+01:00
+    created: 2019-05-04T20:05:46.078508996+01:00
     description: A Helm chart for Kubernetes
     digest: c19749e5a06e1f2cc5e0336479c4ec0c38d6bb9425fc18be3c67a61fe785626b
     name: mychart
     urls:
     - mychart-0.1.0.tgz
     version: 0.1.0
-generated: 2019-05-04T20:02:46.49318534+01:00
+  postgresql:
+  - appVersion: 10.6.0
+    created: 2019-05-04T20:05:46.079180102+01:00
+    description: Chart for PostgreSQL, an object-relational database management system
+      (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+    digest: fbfaf996773e866efc79bd2fa2d0c1ebe87fab56d7f1330b7369e7692d7917df
+    engine: gotpl
+    home: https://www.postgresql.org/
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    urls:
+    - postgresql-3.7.1.tgz
+    version: 3.7.1
+generated: 2019-05-04T20:05:46.077902946+01:00
