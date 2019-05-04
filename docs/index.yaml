@@ -1,13 +1,38 @@
 apiVersion: v1
 entries:
+  memcached:
+  - appVersion: 1.5.6
+    created: 2019-05-04T20:02:46.493607333+01:00
+    description: Free & open source, high-performance, distributed memory object caching
+      system.
+    digest: 4b01420fce2726f8f7cda7d32067c0b40f9d0d6efb1e38c4d593376ae8d9b550
+    engine: gotpl
+    home: http://memcached.org/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Memcached.svg/1024px-Memcached.svg.png
+    keywords:
+    - memcached
+    - cache
+    maintainers:
+    - email: gtaylor@gc-taylor.com
+      name: gtaylor
+    - email: o.with@sportradar.com
+      name: olemarkus
+    - email: k.aasan@sportradar.com
+      name: kennethaasan
+    name: memcached
+    sources:
+    - https://github.com/docker-library/memcached
+    urls:
+    - memcached-2.4.0.tgz
+    version: 2.4.0
   mychart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-05-04T19:45:55.019618476+01:00
+    created: 2019-05-04T20:02:46.493804621+01:00
     description: A Helm chart for Kubernetes
     digest: c19749e5a06e1f2cc5e0336479c4ec0c38d6bb9425fc18be3c67a61fe785626b
     name: mychart
     urls:
-    - https://mgrindley.github.com/helm/mychart-0.1.0.tgz
+    - mychart-0.1.0.tgz
     version: 0.1.0
-generated: 2019-05-04T19:45:55.019315286+01:00
+generated: 2019-05-04T20:02:46.49318534+01:00
